@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+double fall = 0;
+float test = 1;
+float bb = 0;
+
+printf("What was the total rainfall?"); 
+while(char b = getchar()){
+float bb = atof(b);
+if (bb == test){
+break;
+
+}
+printf("%f\n", bb);
+fall += bb;
+
+
+}
+
+printf("%f\n", fall);
+
+}
+
